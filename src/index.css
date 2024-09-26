@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+#workSection {
+  background-image: url("/src/assets/plumber-home-work.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#testimonialSection {
+  background-image: url("/src/assets/hero-bg.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+#alexPlumber {
+  background-image: url("/src/assets/alex-plumber.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#jasonPlumber {
+  background-image: url("/src/assets/jason-plumber.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#andrewPlumber {
+  background-image: url("/src/assets/andrew-plumber.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#henryPlumber {
+  background-image: url("/src/assets/henryPlumber.jpg");
+  background-position: center;
+  background-size: cover;
+}
