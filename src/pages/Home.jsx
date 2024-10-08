@@ -1,10 +1,10 @@
 import React from "react";
 import plumberHero from "../assets/plumber-hero.png";
 import ServiceBox from "../components/ServiceBox";
-import { FaFaucetDrip, FaFilter } from "react-icons/fa6";
+import { FaFaucetDrip, FaFilter, FaPhone } from "react-icons/fa6";
 import { PiBathtubFill } from "react-icons/pi";
 import { GiTeePipe } from "react-icons/gi";
-import { IoWater } from "react-icons/io5";
+import { IoLocationSharp, IoWater } from "react-icons/io5";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import TestimonialBox from "../components/TestimonialBox";
 import sarahImg from "../assets/user-profile-sophia.jpeg";
@@ -12,7 +12,7 @@ import johnImg from "../assets/user-john.jpg";
 import nasimImg from "../assets/user-nasim.jpg";
 import jenImg from "../assets/user-jen.jpg";
 import { FaPhoneFlip } from "react-icons/fa6";
-import { MdOutlineContentPasteSearch } from "react-icons/md";
+import { MdMarkEmailRead, MdOutlineContentPasteSearch } from "react-icons/md";
 import { GrUserWorker } from "react-icons/gr";
 import { IoRibbonSharp } from "react-icons/io5";
 import plumberWorkImg from "../assets/plumbing-work.jpg";
@@ -309,19 +309,25 @@ function Home() {
       </section>
       <footer className="w-full max-w-[2500px] p-4 md:p-8 py-12 flex flex-wrap justify-between bg-yellow-400">
         <div className="w-full p-4 flex gap-3 items-center lg:max-w-[300px]">
-          <div className="icon bg-blue-900 w-[50px] h-[50px] rounded-full"></div>
+          <div className="icon bg-blue-900 w-[50px] h-[50px] rounded-full flex items-center justify-center text-white">
+            <IoLocationSharp />
+          </div>
           <div className="flex flex-col items-start text-[0.75rem]">
             1234 Valencia Blvd, Valencia, CA, USA
           </div>
         </div>
         <div className="w-full p-4 flex gap-3 items-center lg:max-w-[300px]">
-          <div className="icon bg-blue-900 w-[50px] h-[50px] rounded-full"></div>
+          <div className="icon bg-blue-900 w-[50px] h-[50px] flex items-center justify-center text-white rounded-full">
+            <FaPhone />
+          </div>
           <div className="flex flex-col items-start text-[0.75rem]">
             Call Us: 661.390.6504
           </div>
         </div>
         <div className="w-full p-4 flex gap-3 items-center lg:max-w-[300px]">
-          <div className="icon bg-blue-900 w-[50px] h-[50px] rounded-full"></div>
+          <div className="icon bg-blue-900 w-[50px] h-[50px] rounded-full flex items-center justify-center text-white">
+            <MdMarkEmailRead />
+          </div>
           <div className="flex flex-col items-start text-[0.75rem]">
             Email Us: info@superplumbers.com
           </div>
