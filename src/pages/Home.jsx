@@ -1,5 +1,5 @@
 import React from "react";
-import plumberHero from "../assets/plumber-hero.png";
+import plumberHero from "../assets/plumber-hero-min.png";
 import ServiceBox from "../components/ServiceBox";
 import { FaFaucetDrip, FaFilter, FaPhone } from "react-icons/fa6";
 import { PiBathtubFill } from "react-icons/pi";
